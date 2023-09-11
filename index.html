@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style type="text/css">
+html{
+scroll-behavior: smooth;
+}
+.container{
+	min-height:200vh;
+	position:relative;
+}
+
+#scrollTopBtn{
+    display: none;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    outline: none;
+    border:none;
+	z-index: 9999;
+    background-color:crimson;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease-in;
+     box-shadow:  0 0 5px #ffff,
+               0 0 10px #ffffff;
+			
+}
+#scrollTopBtn .fa{
+				color:white;
+				font-size: 22px;
+				text-align: center;
+			}
+
+#scrollTopBtn:hover,#scrollTopBtn:active{
+    background-color: crimson;
+}
+
+
+</style>
+<body>
+<div class="container">
+<button id="scrollTopBtn"><i class="fa fa-arrow-up"></i></button>
+
+
+</div>
+
+
+
+	<script type="text/javascript" src="apps.js"></script>
+</body>
+</html>
